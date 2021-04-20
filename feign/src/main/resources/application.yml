@@ -1,0 +1,21 @@
+server:
+  port: 8083
+  servlet:
+    context-path: /
+spring:
+  application:
+    name: feign-test
+  main:
+    allow-bean-definition-overriding: true
+
+feign:
+  client:
+    config:
+      default:
+        connect-timeout: 500
+        read-timeout: 2000
+        logger-level: full
+  okhttp:
+    enabled: true
+  hystrix:
+    enabled: true
