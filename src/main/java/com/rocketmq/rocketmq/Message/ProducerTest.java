@@ -19,9 +19,9 @@ public class ProducerTest {
         // 您在控制台创建的 Group ID
         properties.put(PropertyKeyConst.GROUP_ID, "GID_110");
         // 鉴权用 AccessKeyId，在阿里云服务器管理控制台创建
-        properties.put(PropertyKeyConst.AccessKey,"LTAI5tNVrz11tTJT7sDLBAon");
+        properties.put(PropertyKeyConst.AccessKey,"LTAI5txxxxxxxxxxxxx");
         // 鉴权用 AccessKeySecret，在阿里云服务器管理控制台创建
-        properties.put(PropertyKeyConst.SecretKey, "EpWOWn1wLjFWTsGjMPW4Q8Pq5fmLai");
+        properties.put(PropertyKeyConst.SecretKey, "EpWOWn1wLxxxxxxxxxx");
         // 设置 TCP 接入域名，进入控制台的实例详情页面，在页面上方选择实例后，在实例信息中的“获取接入点信息”区域查看
         properties.put(PropertyKeyConst.NAMESRV_ADDR,"http://MQ_INST_1008910413281655_BXkRmjF0.mq-internet-access.mq-internet.aliyuncs.com:80");
 
